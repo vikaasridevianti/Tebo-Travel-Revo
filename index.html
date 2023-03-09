@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">     
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <title>Tebo Travel</title>
+    </head>
+    <body>
+            <nav>
+                <div class="logo">
+                  <h4>Tebo Travel Agency</h4> 
+                </div>
+
+                <ul>
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ourpackage" class="nav-link">Our Package</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#callus" class="nav-link">Call Us</a>
+                    </li>
+                </ul>
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span><a href="home"></a></span>
+                    <span><a href="ourpackage"></a></span>
+                    <span><a href="callus"></a></span>
+                </div>
+            </nav>
+            <div class="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+
+            <div class="container" id="slider-utama">
+                   <div class="head-card" id="home">
+                        <img src="assets/bali_.jpeg" alt="" class="slide">
+                        <img src="assets/santorini.jpeg" alt="" class="slide">
+                        <img src="assets/japan.jpeg" alt="" class="slide">
+                        <img src="assets/pic7.jpeg" alt="" class="slide">
+                        <img src="assets/pic10.jpeg" alt="" class="slide">                  
+                        <img src="assets/pic12.jpeg" alt="" class="slide"> 
+                    </div>
+                   <div class="body-card">
+                        <h1>Ayo #MulaiPerjalananmu Bersama Kami</h1>
+                        <p>You happiness is our hapiness</p>
+                    </div>
+            </div>
+            
+<!-- baris tengah -->
+<main class="card-br-tengah">
+    <div class="content">
+        <img src="assets/konya.jpg" alt="Hot air balloons">
+        <p> "Liburan jadi menyenangkan bersama Travel Agentku" </p>          
+            <div class="user">
+                <img src="assets/profile.png" id="profile">
+                <p><b>Florence Hughes</b></p>
+                <p id="ket"><i>Ibu Rumah Tangga,28</i></p>
+                <hr>
+            </div>
+            <div class="body-deskripsi">
+                <h2>ARE YOU READY? FOR YOUR NEXT ADVANTURE?</h2>
+                <h3>Making Memories With The Best Tour Guisdesin The World. BOOK NOW!</h3>
+                <h4>10Days 9Nights</h4>
+                <ol type="1">
+                    <li>Book now from 200USD and get more discount</li>
+                    <li>Free smartphone charging and snacks</li>
+                    <li>Eat 9x (free breakfast and dinner)</li>
+                    <li>Insurance</li>
+                </ul>
+            </div>
+    </div>
+
+    <div class="kontak" id="callus">
+        <h2>Contact Us</h2>
+        <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+        <form action="" method ="POST" class="data" name="formPendaftaran" onsubmit="return validateForm()">
+            <p>
+            <label>Your Name:</label><br>
+            <input type="text" name="username" id="username" placeholder="First Name and Last Name" class="form_input">
+            </p>
+            <p>
+            <label>Email Address:</label><br>
+            <input type="email" name="email" id="email" placeholder="example@email.com" class="form_input">
+            </p>
+            <p>
+            <label>What are you interested in?</label><br>
+            <select name="option" id="option" class="form_input">
+                <option value=""disabled selected>Select Option</option>
+                <option value="Australia">Australia</option>
+                <option value="Belanda">Belanda</option>
+                <option value="Canada">Canada</option>
+                <option value="Denmark">Denmark</option>
+                <option value="England">England</option>
+                <option value="Francee">Francee</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Kuwait">Kuwait</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Paqistan">Paqistan</option>
+                <option value="Turkey">Turkey</option>
+            </select>
+            </p>
+            <p id="feedback">
+            <input type="submit" name="submit" value="Send" class="tombol_input" onclick="validateForm()">
+            </p>
+        </form>
+    </div>
+</main>
+<!-- akhir baris tengah -->
+
+<!--our package-->
+            <div class="card-tengah" id="ourpackage">
+                <h2>Our Package</h2>
+            </div>
+
+            <div class="konten">
+              <div class="card-fill">
+                 <div class="package">
+                    <h1>
+                        <i class="fa fa-sharp fa-regular fa-lightbulb pull-left"></i>
+                        Bali
+                    </h1>
+                    <p>Bali, the Island of the Gods which located in the central part of Indonesia. It has tropical climate with stunning natural scenery</p>                 
+                 </div>
+            </div>  
+              <div class="card-fill">
+                 <div class="package">
+                    <h1>
+                        <i class="fa fa-sharp fa-regular fa-lightbulb pull-left"></i>
+                        Japan
+                    </h1>
+                    <p>Island-hopping, cycling, soul-soothing spiritual walks, and fun dancing, the island of Shikoku encourages you to get up and move </p>
+                 </div>
+              </div>  
+              <div class="card-fill">
+                 <div class="package">
+                    <h1>
+                    <i class="fa fa-sharp fa-regular fa-lightbulb pull-left"></i>
+                    Singapore
+                    </h1>
+                    <p>A charming balance of old and new, Chinatown is one of Singapore’s hottest dining enclaves. From hip cafes to local stalls serving up legendary bites, the choices here are endless </p>
+                 </div>
+              </div>    
+            </div>
+
+            <div class="konten">
+                <div class="card-fill">
+                   <div class="package">
+                      <h1>
+                        <i class="fa-solid fa-star pull-left"></i>
+                        Bandung
+                      </h1>
+                      <p>Those who prefer an escape from the hives of routines in the metropolitan city can go to Lembang. Just north of Bandung, this area offers mountainous sceneries, instagrammable spots and cool soft breezes. </p>                 
+                   </div>
+                </div>  
+                <div class="card-fill">
+                   <div class="package">
+                      <h1><i class="fa-solid fa-star pull-left"></i>
+                        Surabaya
+                      </h1>
+                      <p>Similar to Jaddih Hill, the Sekapuk Hills in Gresik regency are composed of active chalk mines that, after years of “sculpting” by the miners, have resulted in sleek-looking caves, hallways, and beautiful giant “pillars” that are sure to remind you of the halls and pillars of ancient Greece </p>
+                   </div>
+                </div>  
+                <div class="card-fill">
+                   <div class="package">
+                      <h1><i class="fa-solid fa-star pull-left"></i>
+                        Europe
+                      </h1>
+                      <p>Whether it's food or folklore, sauna or science, active sports or wellness travel that lights you up, you’ll find it in Europe. Start planning!</p>
+                   </div>
+                </div>    
+              </div>
+
+              <div class="argumen">
+                <h1>Add more adventure to your life </h1>
+                <p>"The purpose of life is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience." -Eleanor Roosevelt</p>
+                <input type="submit" name="submit" value="BOOK NOW" class="call_input">
+            </div>
+
+<script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul');
+    menuToggle.addEventListener('click', function() {
+    nav.classList.toggle('slide');
+    });
+//buat gambar banner
+    (function() {
+	function Slideshow( element ) {
+		this.el = document.querySelector( element );
+		this.init();
+	}
+	
+	Slideshow.prototype = {
+		init: function() {
+			this.wrapper = this.el.querySelector( ".head-card" );
+			this.slides = this.el.querySelectorAll( ".slide" );
+			this.index = 0;
+			this.total = this.slides.length;
+			this.timer = null;
+			
+			this.action();
+			this.stopStart();	
+		},
+		_slideTo: function( slide ) {
+			var currentSlide = this.slides[slide];
+			currentSlide.style.opacity = 1;
+			
+			for( var i = 0; i < this.slides.length; i++ ) {
+				var slide = this.slides[i];
+				if( slide !== currentSlide ) {
+					slide.style.opacity = 0;
+				}
+			}
+		},
+		action: function() {
+			var self = this;
+			self.timer = setInterval(function() {
+				self.index++;
+				if( self.index == self.slides.length ) {
+					self.index = 0;
+				}
+				self._slideTo( self.index );
+				
+			}, 3000);
+		},
+		stopStart: function() {
+			var self = this;
+			self.el.addEventListener( "mouseover", function() {
+				clearInterval( self.timer );
+				self.timer = null;
+				
+			}, false);
+			self.el.addEventListener( "mouseout", function() {
+				self.action();			
+			}, false);
+		}
+	};
+	
+	document.addEventListener( "DOMContentLoaded", function() {
+		var slider = new Slideshow( "#slider-utama" );
+	    });
+    })();
+//buat validasi
+
+function validateForm() {
+            if (document.forms["formPendaftaran"]["username"].value == "") {
+                alert("Nama Tidak Boleh Kosong");
+                document.forms["formPendaftaran"]["username"].focus();
+                return false;
+            }
+            if (document.forms["formPendaftaran"]["email"].value == "") {
+                alert("Email Tidak Boleh Kosong");
+                document.forms["formPendaftaran"]["email"].focus();
+                return false;
+            }
+            if (document.forms["formPendaftaran"]["option"].selectedIndex < 1) {
+                alert("Pilih destinasi yang anda minati");
+                document.forms["formPendaftaran"]["option"].focus();
+                return false;
+            }
+            else {
+                alert('Data Anda Berhasil Disimpan');  
+            }
+            return false;  
+        }
+    </script>
+    </body>
+
+    <footer>
+        <div class="logo">
+            <h4>Tebo Travel Agency</h4> 
+          </div>
+        <img src="#" alt="" class="footer-img">
+        <h6>Terms of Service . Privacy Policy <br> &copy; 2023 Tebo Travel</h6>
+    </footer>
+
+</html>
